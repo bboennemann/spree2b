@@ -11,7 +11,7 @@ namespace :spree2b do
   	file = "#{Rails.root}/data/products.csv"
 	CSV.foreach(file, :headers => true) do |row|
 
-		puts row[0]
+		puts row[0] + " : " + row[7]
 
 		Spree::Config[:currency] = "USD"
 
@@ -22,6 +22,7 @@ namespace :spree2b do
 		product.tax_category = tax_category
 		product.shipping_category = shipping_category
 		product.available_on = timer
+		product.sku = row[7]
 
 		product.save!
 

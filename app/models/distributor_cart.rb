@@ -4,6 +4,9 @@ class DistributorCart
 	require 'rest_client'
 	require 'nokogiri'
 
+	def initialize
+	end
+
     # gets an oAuth token for further conversation
 	def authenticate
 		username = "akiro.nakamura@pronto-hw.com" 
@@ -18,7 +21,7 @@ class DistributorCart
 	end
 
     # checks if user already has an existing cart
-	def get_existing_cart (token)
+	def get_current_cart (token)
 		username = "akiro.nakamura@pronto-hw.com" 
 
 		url = 'http://localhost:9001/rest/v2/powertools/users/' + username + '/carts/current'
@@ -26,7 +29,13 @@ class DistributorCart
 
 		response = client.get(:Authorization => token )
 
-		#cart = Nokogiri::XML(response).at_css("code").content
+		xml = Nokogiri::XML(response)
+
+		#hash = Hash.from_xml(xml)
+
+		#cart = hash['cart']
+
+		#cart = Nokogiri::XML(xml).at_css("code").content
 	end
 
     # add new product entry to cart
@@ -45,18 +54,12 @@ class DistributorCart
 	end
 
     # increase quantity of existing product in cart
-	def increase_quantity token, cart_id, product_code, qty = 1
+	def update_quantity token, cart_id, product_code, qty = 1
 	end
 
     # create a new cart for user
 	def create_cart
 	end
 
-    # get an existing cart instance
-	def get_existing_cart
-	end
 
-    # check if specific product alreadu exists in existing cart
-	def check_for_product_in_cart
-	end	
 end

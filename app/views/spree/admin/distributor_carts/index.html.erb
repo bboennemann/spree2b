@@ -1,7 +1,42 @@
 <%= render :partial => 'spree/admin/shared/configuration_menu' %>
 
 <% content_for :page_title do %>
-  <%= Spree.t(:distributor_configuration) %>
+  <%= Spree.t(:distributor_cart) %>
 <% end %>
 
-<%= @cart.to_s %>
+<fieldset class="general no-border-top">
+<legend align="center"><%= Spree.t(:cart_entries)%></legend>
+
+<table class="index">
+  <thead data-hook="customer_return_header">
+		<th>Quantity</th>
+		<th>Product Name</th>
+		<th>SKU</th>
+		<th>Price</th>
+	</thead>
+
+
+<% @cart.xpath('//entries').each do |item| %>
+	<tr>
+		<td>
+			<%= label_tag :distributor_cart_quantity, Spree.t(:quantity) %>
+            <%= text_field_tag :distributor_cart_quantity, item.xpath('quantity').text, :size => 3 %>
+        </td>
+		<td><%= item.xpath('product/name').text %></td>
+		<td><%= item.xpath('product/code').text %></td>
+		<td><%= item.xpath('totalPrice/currencyIso').text + item.xpath('totalPrice/value').text %></td>
+
+	</tr>
+
+
+<% end %>            
+</table>
+
+      <div class="form-buttons filter-actions actions" data-hook="buttons">
+        <%= button Spree.t('actions.update'), 'refresh' %>
+        <span class="or"><%= Spree.t(:or) %></span>
+        <%= link_to_with_icon 'remove', Spree.t('actions.cancel'), edit_admin_general_settings_url, :class => 'button' %>
+      </div>
+
+    </fieldset>
+
