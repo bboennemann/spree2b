@@ -1,0 +1,53 @@
+<%= render :partial => 'spree/admin/shared/configuration_menu' %>
+
+<% content_for :page_title do %>
+  <%= Spree.t(:distributor_configuration) %>
+<% end %>
+
+<%= form_tag admin_distributor_settings_path, :method => :put do %>
+  <div id="preferences" data-hook>
+
+    <fieldset class="general no-border-top">
+
+      <%= fields_for :store do |f| %>
+        <div class="field" data-hook="admin_distributor_setting_input_percent_margin">
+          <%= f.label :percent_margin %>
+          <br />
+          <%= f.text_field :percent_margin, class: 'fullwidth' %>
+        </div>
+
+        <div class="field" data-hook="admin_distributor_setting_input_fixed_margin">
+          <%= f.label :fixed_margin %>
+          <br />
+          <%= f.text_field :fixed_margin, class: 'fullwidth'  %>
+        </div>
+
+        <div class="field" data-hook="admin_distributor_setting_input_min_margin">
+          <%= f.label :min_margin %>
+          <br />
+          <%= f.text_field :min_margin, class: 'fullwidth'  %>
+        </div>
+
+        <div class="field" data-hook="admin_distributor_setting_input_max_margin">
+          <%= f.label :max_margin %>
+          <br />
+          <%= f.text_field :max_margin, class: 'fullwidth'  %>
+        </div>
+
+
+      <% end %>
+
+     
+
+      <div class="form-buttons filter-actions actions" data-hook="buttons">
+        <%= button Spree.t('actions.update'), 'refresh' %>
+        <span class="or"><%= Spree.t(:or) %></span>
+        <%= link_to_with_icon 'remove', Spree.t('actions.cancel'), admin_distributor_settings_url, :class => 'button' %>
+      </div>
+
+    </fieldset>
+
+  </div>
+
+
+<% end %>
