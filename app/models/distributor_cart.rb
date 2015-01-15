@@ -26,7 +26,7 @@ class DistributorCart
 
 		response = client.get(:Authorization => token )
 
-		@cart_id = Nokogiri::XML(response).at_css("code").content
+		#cart = Nokogiri::XML(response).at_css("code").content
 	end
 
     # add new product entry to cart

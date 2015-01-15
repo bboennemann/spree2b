@@ -1,0 +1,406 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"empl",
+				"employee"
+			],
+			[
+				"htm",
+				"html_safe"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "app/models/distributor_cart.rb",
+			"settings":
+			{
+				"buffer_size": 1900,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/home/bboennemann/.rvm/gems/ruby-head@spree2b/gems/spree_sample-2.4.2/db/samples/payments.rb",
+			"settings":
+			{
+				"buffer_size": 1037,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "app/views/spree/admin/distributor_carts/index.html.erb",
+			"settings":
+			{
+				"buffer_size": 173,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "app/controllers/spree/admin/distributor_carts_controller.rb",
+			"settings":
+			{
+				"buffer_size": 199,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 0.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/home/bboennemann/dev/spree2b",
+		"/home/bboennemann/dev/spree2b/app",
+		"/home/bboennemann/dev/spree2b/app/assets",
+		"/home/bboennemann/dev/spree2b/app/controllers",
+		"/home/bboennemann/dev/spree2b/app/controllers/spree",
+		"/home/bboennemann/dev/spree2b/app/controllers/spree/admin",
+		"/home/bboennemann/dev/spree2b/app/models",
+		"/home/bboennemann/dev/spree2b/app/models/spree",
+		"/home/bboennemann/dev/spree2b/app/overrides",
+		"/home/bboennemann/dev/spree2b/app/views",
+		"/home/bboennemann/dev/spree2b/app/views/spree",
+		"/home/bboennemann/dev/spree2b/app/views/spree/admin",
+		"/home/bboennemann/dev/spree2b/app/views/spree/admin/distributor_carts",
+		"/home/bboennemann/dev/spree2b/app/views/spree/admin/distributor_settings",
+		"/home/bboennemann/dev/spree2b/config",
+		"/home/bboennemann/dev/spree2b/db",
+		"/home/bboennemann/.rvm/gems/ruby-head@spree2b/gems/spree_sample-2.4.2",
+		"/home/bboennemann/.rvm/gems/ruby-head@spree2b/gems/spree_sample-2.4.2/db",
+		"/home/bboennemann/.rvm/gems/ruby-head@spree2b/gems/spree_sample-2.4.2/db/samples",
+		"/home/bboennemann/.rvm/gems/ruby-head@spree2b/gems/spree_sample-2.4.2/lib",
+		"/home/bboennemann/.rvm/gems/ruby-head@spree2b/gems/spree_sample-2.4.2/lib/spree",
+		"/home/bboennemann/.rvm/gems/ruby-head@spree2b/gems/spree_sample-2.4.2/lib/tasks"
+	],
+	"file_history":
+	[
+		"/home/bboennemann/dev/spree2b/config/routes.rb",
+		"/home/bboennemann/dev/spree2b/app/views/spree/admin/distributor_cart/index.html.erb",
+		"/home/bboennemann/dev/spree2b/app/views/spree/admin/distributor_settings/index.html.erb",
+		"/home/bboennemann/dev/spree2b/Gemfile",
+		"/home/bboennemann/dev/spree2b/app/overrides/distributor_settings_menu.rb",
+		"/home/bboennemann/dev/spree2b/app/overrides/distributor_cart_menu.rb",
+		"/home/bboennemann/dev/spree2b/.gitignore",
+		"/home/bboennemann/dev/pims/config/database.yml",
+		"/home/bboennemann/dev/pims/app/assets/javascripts/ennead.js",
+		"/home/bboennemann/dev/pims/app/assets/javascripts/jquery-migrate-1.2.1.js",
+		"/home/bboennemann/dev/rails/certdb/config/initializers/certdb_application.rb",
+		"/home/bboennemann/dev/rails/certdb/app/controllers/certifications_controller.rb",
+		"/home/bboennemann/dev/rails/certdb/app/views/employees/_subordinates.erb",
+		"/home/bboennemann/dev/rails/certdb/app/views/certifications/index.html.erb",
+		"/home/bboennemann/dev/rails/certdb/app/views/certifications/_form.html.erb",
+		"/home/bboennemann/dev/rails/certdb/app/views/employees/_form.html.erb",
+		"/home/bboennemann/dev/rails/certdb/app/views/certifications/show.html.erb",
+		"/home/bboennemann/dev/rails/certdb/app/views/employees/_certifications.erb",
+		"/home/bboennemann/dev/rails/certdb/app/helpers/certifications_helper.rb",
+		"/home/bboennemann/dev/rails/certdb/config/certdb_app_config.yml",
+		"/home/bboennemann/dev/rails/certdb/app/views/certifications/new.html.erb",
+		"/home/bboennemann/dev/rails/certdb/app/views/certifications/edit.html.erb",
+		"/home/bboennemann/dev/rails/certdb/app/controllers/employees_controller.rb",
+		"/home/bboennemann/dev/rails/certdb/app/views/layouts/_navigation.erb",
+		"/home/bboennemann/dev/rails/certdb/app/views/layouts/application.html.erb",
+		"/home/bboennemann/dev/rails/certdb/app/models/employee.rb",
+		"/home/bboennemann/dev/rails/certdb/app/models/user.rb",
+		"/home/bboennemann/dev/rails/certdb/app/views/employees/show.html.erb",
+		"/home/bboennemann/dev/rails/certdb/app/views/employees/index.html.erb",
+		"/home/bboennemann/dev/rails/voting-com/app/controllers/application_controller.rb",
+		"/home/bboennemann/dev/rails/voting-com/app/models/voting.rb",
+		"/home/bboennemann/dev/rails/voting-com/config/initializers/devise.rb",
+		"/home/bboennemann/dev/rails/voting-com/test/test_helper.rb",
+		"/home/bboennemann/dev/rails/voting-com/config/mongoid.yml",
+		"/home/bboennemann/dev/rails/voting-com/config/voting_app_config.yml",
+		"/home/bboennemann/dev/rails/voting-com/Gemfile",
+		"/home/bboennemann/dev/rails/voting-com/.gitignore",
+		"/home/bboennemann/dev/rails/voting-com/app/models/flickr.rb",
+		"/home/bboennemann/dev/rails/voting-com/todo.txt",
+		"/home/bboennemann/dev/rails/voting-com/test/fixtures/classic_votings.yml",
+		"/home/bboennemann/dev/rails/pims/Gemfile",
+		"/home/bboennemann/dev/rails/pims/config/database.yml",
+		"/home/bboennemann/dev/rails/ennead_migration/Gemfile",
+		"/home/bboennemann/dev/rails/ennead_migration/Gemfile.lock",
+		"/home/bboennemann/dev/rails/ennead_migration/app/views/project/_quotes.html.erb"
+	],
+	"find":
+	{
+		"height": 25.0
+	},
+	"find_in_files":
+	{
+		"height": 93.0,
+		"where_history":
+		[
+			"/home/bboennemann/.rvm/gems/ruby-head@spree2b/gems/spree_sample-2.4.2",
+			"/home/bboennemann/dev/pims",
+			"/home/bboennemann/dev/pims/app/assets/javascripts",
+			""
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"spree123",
+			"spree@example.com",
+			".ajax",
+			".after",
+			".add",
+			".sub",
+			".die",
+			".toggle",
+			".browser",
+			"browser",
+			".browser(",
+			"order_by",
+			"orderable",
+			"s3_base_url",
+			"ENV[",
+			"			\n",
+			"return",
+			"secret_key",
+			"newrelic",
+			"quotes",
+			"html_safe"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 1,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "app/models/distributor_cart.rb",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1900,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								992,
+								992
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Ruby/Ruby.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "/home/bboennemann/.rvm/gems/ruby-head@spree2b/gems/spree_sample-2.4.2/db/samples/payments.rb",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1037,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1037,
+								1037
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Ruby/Ruby.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "app/views/spree/admin/distributor_carts/index.html.erb",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 173,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								165,
+								165
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Rails/HTML (Rails).tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "app/controllers/spree/admin/distributor_carts_controller.rb",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 199,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								155,
+								155
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Ruby/Ruby.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 25.0
+	},
+	"input":
+	{
+		"height": 33.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"project": "spree2b.sublime-project",
+	"replace":
+	{
+		"height": 46.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 273.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

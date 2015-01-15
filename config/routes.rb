@@ -63,6 +63,7 @@ Rails.application.routes.draw do
   Spree::Core::Engine.routes.prepend do
     namespace :admin do
       resources :distributor_settings
+      resources :distributor_carts
     end
   end
   
