@@ -1,0 +1,17 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  margin_value: 1
+  margin_percentage: 1
+  margin_min: 1
+  margin_max: 1
+  order_cut_off: 2015-01-16
+  file_check_time: 2015-01-16
+
+two:
+  margin_value: 1
+  margin_percentage: 1
+  margin_min: 1
+  margin_max: 1
+  order_cut_off: 2015-01-16
+  file_check_time: 2015-01-16
