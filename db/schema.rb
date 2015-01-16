@@ -11,9 +11,20 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20150111130910) do
+ActiveRecord::Schema.define(version: 20150116033914) do
 
   create_table "distributor_connectors", force: true do |t|
+    t.datetime "created_at"
+    t.datetime "updated_at"
+  end
+
+  create_table "distributor_settings", force: true do |t|
+    t.integer  "margin_value"
+    t.integer  "margin_percentage"
+    t.integer  "margin_min"
+    t.integer  "margin_max"
+    t.date     "order_cut_off"
+    t.date     "file_check_time"
     t.datetime "created_at"
     t.datetime "updated_at"
   end

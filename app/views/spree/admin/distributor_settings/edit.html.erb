@@ -1,6 +1,6 @@
-<%= render :partial => 'spree/admin/shared/configuration_menu' %>
+<h1>Editing distributor_setting</h1>
 
-<% content_for :page_title do %>
-  <%= Spree.t(:distributor_configuration) %>
-<% end %>
+<%= render 'form' %>
 
+<%= link_to 'Show', admin_distributor_settings_path %> |
+<%= link_to 'Back', admin_distributor_settings_path %>

@@ -1,0 +1,25 @@
+<%= form_for(@distributor_setting, url: admin_distributor_settings_path ) do |f| %>
+  <% if @distributor_setting.errors.any? %>
+    <div id="error_explanation">
+      <h2><%= pluralize(@distributor_setting.errors.count, "error") %> prohibited this distributor_setting from being saved:</h2>
+
+      <ul>
+      <% @distributor_setting.errors.full_messages.each do |message| %>
+        <li><%= message %></li>
+      <% end %>
+      </ul>
+    </div>
+  <% end %>
+
+
+  Margin Value: <%= f.text_field :margin_value %><br>
+  margin_percentage: <%= f.text_field :margin_percentage %><br>
+  margin_min: <%= f.text_field :margin_min %><br>
+  margin_max:<%= f.text_field :margin_max %><br>
+  order_cut_off: <%= f.text_field :order_cut_off %><br>
+  file_check_time: <%= f.text_field :file_check_time %><br>
+
+  <div class="actions">
+    <%= f.submit %>
+  </div>
+<% end %>

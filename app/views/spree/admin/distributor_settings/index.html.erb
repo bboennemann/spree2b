@@ -1,53 +1,23 @@
-<%= render :partial => 'spree/admin/shared/configuration_menu' %>
+<h1>Listing distributor_settings</h1>
 
-<% content_for :page_title do %>
-  <%= Spree.t(:distributor_configuration) %>
-<% end %>
+<table>
+  <thead>
+    <tr>
+      <th colspan="3"></th>
+    </tr>
+  </thead>
 
-<%= form_tag admin_distributor_settings_path, :method => :put do %>
-  <div id="preferences" data-hook>
+  <tbody>
+    <% @distributor_settings.each do |distributor_setting| %>
+      <tr>
+        <td><%= link_to 'Show', admin_distributor_settings_path %></td>
+        <td><%= link_to 'Edit', edit_admin_distributor_setting_path(distributor_setting) %></td>
+        <td><%= link_to 'Destroy', admin_distributor_settings_path, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+      </tr>
+    <% end %>
+  </tbody>
+</table>
 
-    <fieldset class="general no-border-top">
+<br>
 
-      <%= fields_for :store do |f| %>
-        <div class="field" data-hook="admin_distributor_setting_input_percent_margin">
-          <%= f.label :percent_margin %>
-          <br />
-          <%= f.text_field :percent_margin, class: 'fullwidth' %>
-        </div>
-
-        <div class="field" data-hook="admin_distributor_setting_input_fixed_margin">
-          <%= f.label :fixed_margin %>
-          <br />
-          <%= f.text_field :fixed_margin, class: 'fullwidth'  %>
-        </div>
-
-        <div class="field" data-hook="admin_distributor_setting_input_min_margin">
-          <%= f.label :min_margin %>
-          <br />
-          <%= f.text_field :min_margin, class: 'fullwidth'  %>
-        </div>
-
-        <div class="field" data-hook="admin_distributor_setting_input_max_margin">
-          <%= f.label :max_margin %>
-          <br />
-          <%= f.text_field :max_margin, class: 'fullwidth'  %>
-        </div>
-
-
-      <% end %>
-
-     
-
-      <div class="form-buttons filter-actions actions" data-hook="buttons">
-        <%= button Spree.t('actions.update'), 'refresh' %>
-        <span class="or"><%= Spree.t(:or) %></span>
-        <%= link_to_with_icon 'remove', Spree.t('actions.cancel'), admin_distributor_settings_url, :class => 'button' %>
-      </div>
-
-    </fieldset>
-
-  </div>
-
-
-<% end %>
+<%= link_to 'New Distributor setting', new_admin_distributor_setting_path %>
